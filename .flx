@@ -1,4 +1,4 @@
 [deploy]
-mv public/server.fcgi public/server2.fcgi
-mv public/server2.fcgi public/server.fcgi
-chmod 705 public/server.fcgi
+mv public_html/server.fcgi public_html/server2.fcgi
+mv public_html/server2.fcgi public_html/server.fcgi
+chmod 705 public_html/server.fcgi
