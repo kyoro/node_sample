@@ -1,2 +1,2 @@
-[setup]
+[deploy]
 chmod 705 public/server.fcgi
