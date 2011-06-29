@@ -5,7 +5,7 @@ var fcgiApp = require("./fcgi"),
 var myServer = http.createServer(function(req, res) {
 	setTimeout(function() {
 		res.writeHead(200, {"Content-type": "text/html"});
-		res.end("It Miko Moe Works 554444444444o3!" + Date.now());
+		res.end("It Miko Moe Works uuuuuu554444444444o3!" + Date.now());
 		console.log("Wrote response.");
 	}, 1000);
 	//throw new Error("Bollocks.");
