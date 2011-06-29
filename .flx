@@ -1,2 +1,4 @@
 [deploy]
+mv public/server.fcgi public/server2.fcgi
+mv public/server2.fcgi public/server1.fcgi
 chmod 705 public/server.fcgi
